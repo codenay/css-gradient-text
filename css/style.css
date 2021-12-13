@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Red+Hat+Display:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+}
+.container {
+  width: 90%;
+  max-width: 830px;
+  padding: 20px;
+}
+p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+p {
+  background-image: linear-gradient(45deg, #ee0979, #5773ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
